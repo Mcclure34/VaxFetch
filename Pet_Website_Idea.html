@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VaxFetch - Pet Vaccine Price Finder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9fafa;
+      color: #333;
+    }
+    header {
+      background-color: #e0f7fa;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #006eff;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #ffffff;
+    }
+    .hero input {
+      padding: 10px;
+      width: 250px;
+      margin-top: 10px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .steps, .clinics, .blog {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1;
+      min-width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .email-signup {
+      background-color: #e0f2f1;
+      padding: 30px;
+      text-align: center;
+    }
+    footer {
+      background-color: #707070;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    footer a {
+      color: #000000;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>VaxFetch</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+    <a href="#">For Vets</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Find the Best Pet Vaccine Prices Near You</h2>
+  <p>Compare local vet prices for rabies, distemper, and more — all in one place.</p>
+  <input type="text" placeholder="Enter your ZIP code" />
+  <button>Search</button>
+</section>
+
+<section class="section">
+  <h3>How It Works</h3>
+  <div class="steps">
+    <div class="card">1. Enter your location</div>
+    <div class="card">2. View vaccine prices</div>
+    <div class="card">3. Book or contact the clinic</div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>Featured Clinics</h3>
+  <div class="clinics">
+    <div class="card">
+      <h4>Paws & Claws Vet</h4>
+      <p>123 Pet St, Odessa, TX</p>
+      <p>Rabies: $25 | Distemper: $30</p>
+      <button>Book Now</button>
+    </div>
+    <div class="card">
+      <h4>Happy Tails Animal Clinic</h4>
+      <p>456 Bark Ave, Odessa, TX</p>
+      <p>Rabies: $20 | Distemper: $28</p>
+      <button>Book Now</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>From the Blog</h3>
+  <div class="blog">
+    <div class="card">
+      <h4>Why Vaccines Matter</h4>
+      <p>Learn how vaccines protect your furry friends from serious diseases.</p>
+    </div>
+    <div class="card">
+      <h4>How Often Should You Vaccinate?</h4>
+      <p>A guide to keeping your pet's shots up to date.</p>
+    </div>
+  </div>
+</section>
+
+<section class="email-signup">
+  <h3>Get Your Free Pet Vaccination Schedule</h3>
+  <input type="email" placeholder="Enter your email" />
+  <button>Sign Up</button>
+</section>
+
+<footer>
+  <p>&copy; 2025 VaxFetch. All rights reserved.</p>
+  <p>
+    <a href="#">Privacy Policy</a> |
+    <a href="#">Terms of Service</a>
+  </p>
+</footer>
+
+</body>
+</html>
